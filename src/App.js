@@ -5,9 +5,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Powered By ChampInfotech!!!
+        </p>
+        <p>
+          Innovation by Presence...!
         </p>
         <a
           className="App-link"
