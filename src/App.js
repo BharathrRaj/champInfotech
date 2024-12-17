@@ -1,18 +1,18 @@
 import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './pages/home';
+import Carieer from './pages/Carieer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Powered By ChampInfotech!!!
-        </p>
-        <p>
-          Innovation by Presence...!!!
-        </p>
-      
-      </header>
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path = "/" element = {<Home/>} />
+      <Route path = "/career" element = {<Carieer/>} />
+      <Route path = "/" element = {<Home/>} />
+      <Route path = "/" element = {<Home/>} />
+    </Routes>
+  </BrowserRouter>
   );
 }
 
