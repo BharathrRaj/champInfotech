@@ -10,7 +10,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 // import MenuIcon from '@mui/icons-material/Menu';
-import Login from '@mui/icons-material/Login';
+import LoginIcon  from '@mui/icons-material/Login';
 
 const Home = () => {
 
@@ -39,7 +39,7 @@ const Home = () => {
                     </Typography>
                     <Button color="inherit">
                         Login
-                        <Login/>
+                        <LoginIcon />
                     </Button>
                 </Toolbar>
             </AppBar>
