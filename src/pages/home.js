@@ -1,6 +1,6 @@
 import { Box, Grid2 } from '@mui/material';
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
+// import { useNavigate } from 'react-router-dom'
 import welcomelogo from './../assets/images/welcome.png'
 import website from './../assets/images/website.png';
 import logo from './../assets/images/logoImg.png'
@@ -14,12 +14,10 @@ import LoginIcon  from '@mui/icons-material/Login';
 
 const Home = () => {
 
-  var navigate = useNavigate();
-
-
-  function onClickItem(){
-    navigate("/career")
-  }
+//   var navigate = useNavigate();
+//   function onClickItem(){
+//     navigate("/career")
+//   }
 
   return (
     <div >
